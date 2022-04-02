@@ -1,6 +1,8 @@
 # Better-xbps
 better xbps is literally xbps but better with rgb color 
 
+# 🗺️ [website](https://better-xbps.emperror.repl.co)
+
 ### installation
 ```sh
 $ sudo gem install colorize
@@ -12,5 +14,5 @@ Or
 $ sudo gem install lolcat
 ```
 ```sh
-$ ./build.rb
+$ ruby build.rb
 ```
