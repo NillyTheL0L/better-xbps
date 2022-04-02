@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cli-ui (1.5.1)
+    colorize (0.8.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  cli-ui
+  colorize
+
+BUNDLED WITH
+   2.3.7

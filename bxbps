@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require 'colorize'
+require 'cli/ui'
+CLI::UI::Prompt.ask('==> Better-xbps:  Select an option:') do |handler|
+  handler.option('install')  { |selection| selection; system("bxbps-install") }
+  handler.option('uninstall')     { |selection| selection; system("bxbps-uninstall") }
+  handler.option('search')   { |selection| selection; system("bxbps-search") }
+  handler.option('update') { |selection| selection; system("bxbps-update") }
+end
