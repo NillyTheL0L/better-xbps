@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require "colorize"
+puts "===> better-xbpx  Package To Install:".colorize(:red)
+package = gets.chomp
+system("sudo xbps-install " + package + " -A -y | lolcat")

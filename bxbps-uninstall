@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require "colorize"
+puts "===> better-xbps:  Package To Remove:".colorize(:red)
+package = gets.chomp
+system("sudo xbps-remove " + package + "  | lolcat")
