@@ -11,5 +11,5 @@ Or
 $ sudo gem install lolcat
 ```
 ```sh
-$ build.rb
+$ ./build.rb
 ```
