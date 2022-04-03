@@ -2,4 +2,4 @@
 require "colorize"
 puts "===> better-xbpx  Package To Search:".colorize(:red)
 package = gets.chomp
-system("sudo xbps-query -R  | lolcat")
+system("sudo xbps-query -R " + package + " | lolcat")
